@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intermediate HTML, CSS, and JavaScript</title>
+  <link rel="stylesheet" href="task2 css.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Intermediate HTML, CSS, and JavaScript</h1>
+  </header>
+
+  <nav>
+    <span>Home</span>
+    <span>Contact</span>
+    <span>Gallery</span>
+  </nav>
+
+  <div class="container">
+
+    <!-- Task 1: Contact Form -->
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 3: Responsive Layout -->
+    <h2>Responsive Layout</h2>
+    <div class="grid-layout">
+      <div class="card">Card 1</div>
+      <div class="card">Card 2</div>
+      <div class="card">Card 3</div>
+    </div>
+
+    <!-- Task 4: To-Do List -->
+    <h2>To-Do List</h2>
+    <div id="todo">
+      <input type="text" id="taskInput" placeholder="Add a task..." />
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList"></ul>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 ApexPlanet Software Pvt Ltd
+  </footer>
+  <script src="task 2 js.js"></script>
+
+</body>
+</html>
